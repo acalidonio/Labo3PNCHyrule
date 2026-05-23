@@ -1,0 +1,657 @@
+{
+  "info": {
+    "_postman_id": "5740c46f-fe6e-46f9-a6b6-df214ce936a6",
+    "name": "Labo 3 Hyrule 00363918",
+    "description": "### Welcome to Postman! This is your first collection. \n\nCollections are your starting point for building and testing APIs. You can use this one to:\n\n• Group related requests\n• Test your API in real-world scenarios\n• Document and share your requests\n\nUpdate the name and overview whenever you’re ready to make it yours.\n\n[Learn more about Postman Collections.](https://learning.postman.com/docs/collections/collections-overview/)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "55155249",
+    "_collection_link": "https://go.postman.co/collection/55155249-5740c46f-fe6e-46f9-a6b6-df214ce936a6?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Create Specimen",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Kolog Azul\",\r\n  \"region\": \"Praderas de Faron\",\r\n  \"dangerLevel\": 0,\r\n  \"isFriendly\": true\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/specimens/create",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "specimens",
+            "create"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Create Specimen",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Kolog Azul\",\r\n  \"region\": \"Praderas de Faron\",\r\n  \"dangerLevel\": 0,\r\n  \"isFriendly\": true\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8080/api/specimens/create",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "api",
+                "specimens",
+                "create"
+              ]
+            }
+          },
+          "status": "Created",
+          "code": 201,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 23 May 2026 22:13:45 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"data\": {\n        \"id\": \"c3a76491-4a47-4fea-8c3a-5b49d67d7019\",\n        \"name\": \"Kolog Azul\",\n        \"region\": \"Praderas de Faron\",\n        \"dangerLevel\": 0,\n        \"isFriendly\": true\n    },\n    \"message\": \"Specimen registered in the Sheikah Slate successfully\",\n    \"status\": 201,\n    \"time\": \"2026-05-23T16:13:45.0862862\",\n    \"uri\": \"/api/specimens/create\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Create Specimen 2",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Bokoblin Rojo\",\r\n  \"region\": \"Praderas de Faron\",\r\n  \"dangerLevel\": 2,\r\n  \"isFriendly\": false\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/specimens/create",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "specimens",
+            "create"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Create Specimen 2",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Bokoblin Rojo\",\r\n  \"region\": \"Praderas de Faron\",\r\n  \"dangerLevel\": 2,\r\n  \"isFriendly\": false\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8080/api/specimens/create",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "api",
+                "specimens",
+                "create"
+              ]
+            }
+          },
+          "status": "Created",
+          "code": 201,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 23 May 2026 22:17:01 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"data\": {\n        \"id\": \"a622b556-8acf-4f39-924a-c2d616dfa56b\",\n        \"name\": \"Bokoblin Rojo\",\n        \"region\": \"Praderas de Faron\",\n        \"dangerLevel\": 2,\n        \"isFriendly\": false\n    },\n    \"message\": \"Specimen registered in the Sheikah Slate successfully\",\n    \"status\": 201,\n    \"time\": \"2026-05-23T16:17:01.7469908\",\n    \"uri\": \"/api/specimens/create\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Create Specimen 3",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Lynel\",\r\n  \"region\": \"Praderas de Faron\",\r\n  \"dangerLevel\": 100,\r\n  \"isFriendly\": false\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/specimens/create",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "specimens",
+            "create"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Create Specimen 3",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Lynel\",\r\n  \"region\": \"Praderas de Faron\",\r\n  \"dangerLevel\": 100,\r\n  \"isFriendly\": false\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8080/api/specimens/create",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "api",
+                "specimens",
+                "create"
+              ]
+            }
+          },
+          "status": "Created",
+          "code": 201,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 23 May 2026 22:18:02 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"data\": {\n        \"id\": \"9535deaf-46d1-4ec8-9c5c-7731bc7eb747\",\n        \"name\": \"Lynel\",\n        \"region\": \"Praderas de Faron\",\n        \"dangerLevel\": 100,\n        \"isFriendly\": false\n    },\n    \"message\": \"Specimen registered in the Sheikah Slate successfully\",\n    \"status\": 201,\n    \"time\": \"2026-05-23T16:18:02.2250242\",\n    \"uri\": \"/api/specimens/create\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Get All (Filtered + Paginated)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/specimens/getAll?page=0&size=3&sortBy=dangerLevel&sortOrder=desc",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "specimens",
+            "getAll"
+          ],
+          "query": [
+            {
+              "key": "page",
+              "value": "0"
+            },
+            {
+              "key": "size",
+              "value": "3"
+            },
+            {
+              "key": "sortBy",
+              "value": "dangerLevel"
+            },
+            {
+              "key": "sortOrder",
+              "value": "desc"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Get All (Filtered + Paginated)",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/api/specimens/getAll?page=0&size=3&sortBy=dangerLevel&sortOrder=desc",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "api",
+                "specimens",
+                "getAll"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "0"
+                },
+                {
+                  "key": "size",
+                  "value": "3"
+                },
+                {
+                  "key": "sortBy",
+                  "value": "dangerLevel"
+                },
+                {
+                  "key": "sortOrder",
+                  "value": "desc"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 23 May 2026 22:25:45 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"data\": {\n        \"content\": [\n            {\n                \"id\": \"ff923d4d-7803-4cea-bd7b-eba768207b1b\",\n                \"name\": \"Lynel\",\n                \"region\": \"Praderas de Faron\",\n                \"dangerLevel\": 100,\n                \"isFriendly\": false\n            },\n            {\n                \"id\": \"9535deaf-46d1-4ec8-9c5c-7731bc7eb747\",\n                \"name\": \"Lynel\",\n                \"region\": \"Praderas de Faron\",\n                \"dangerLevel\": 100,\n                \"isFriendly\": false\n            },\n            {\n                \"id\": \"a569f112-5c8b-44fe-b9a5-f41070dd394d\",\n                \"name\": \"Bokoblin Plateado\",\n                \"region\": \"Montañas de Hebra\",\n                \"dangerLevel\": 85,\n                \"isFriendly\": false\n            }\n        ],\n        \"page\": 0,\n        \"size\": 3,\n        \"totalElements\": 11,\n        \"totalPages\": 4,\n        \"last\": false\n    },\n    \"message\": \"Hyrule specimens retrieved successfully\",\n    \"status\": 200,\n    \"time\": \"2026-05-23T16:25:45.9353843\",\n    \"uri\": \"/api/specimens/getAll\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Get by ID",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/specimens/getBy/9535deaf-46d1-4ec8-9c5c-7731bc7ea747",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "specimens",
+            "getBy",
+            "9535deaf-46d1-4ec8-9c5c-7731bc7ea747"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Get by ID",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/api/specimens/getBy/9535deaf-46d1-4ec8-9c5c-7731bc7eb747",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "api",
+                "specimens",
+                "getBy",
+                "9535deaf-46d1-4ec8-9c5c-7731bc7eb747"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 23 May 2026 22:24:42 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"data\": {\n        \"id\": \"9535deaf-46d1-4ec8-9c5c-7731bc7eb747\",\n        \"name\": \"Lynel\",\n        \"region\": \"Praderas de Faron\",\n        \"dangerLevel\": 100,\n        \"isFriendly\": false\n    },\n    \"message\": \"Specimen found in records\",\n    \"status\": 200,\n    \"time\": \"2026-05-23T16:24:42.7184439\",\n    \"uri\": \"/api/specimens/getBy/9535deaf-46d1-4ec8-9c5c-7731bc7eb747\"\n}"
+        },
+        {
+          "name": "404 response",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/api/specimens/getBy/9535deaf-46d1-4ec8-9c5c-7731bc7eb748",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "api",
+                "specimens",
+                "getBy",
+                "9535deaf-46d1-4ec8-9c5c-7731bc7eb748"
+              ]
+            }
+          },
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 23 May 2026 22:24:54 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"message\": \"Specimen not found in Sheikah Slate records\",\n    \"status\": 404,\n    \"time\": \"2026-05-23T16:24:54.4726255\",\n    \"uri\": \"/api/specimens/getBy/9535deaf-46d1-4ec8-9c5c-7731bc7eb748\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Update by ID",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Bokoblin Plateado\",\r\n  \"region\": \"Montañas de Hebra\",\r\n  \"dangerLevel\": 85,\r\n  \"isFriendly\": false\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/specimens/update/a569f112-5c8b-44fe-b9a5-f41070dd394d",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "specimens",
+            "update",
+            "a569f112-5c8b-44fe-b9a5-f41070dd394d"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Update by ID",
+          "originalRequest": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Bokoblin Plateado\",\r\n  \"region\": \"Montañas de Hebra\",\r\n  \"dangerLevel\": 85,\r\n  \"isFriendly\": false\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8080/api/specimens/update/a569f112-5c8b-44fe-b9a5-f41070dd394d",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "api",
+                "specimens",
+                "update",
+                "a569f112-5c8b-44fe-b9a5-f41070dd394d"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 23 May 2026 22:23:39 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"data\": {\n        \"id\": \"a569f112-5c8b-44fe-b9a5-f41070dd394d\",\n        \"name\": \"Bokoblin Plateado\",\n        \"region\": \"Montañas de Hebra\",\n        \"dangerLevel\": 85,\n        \"isFriendly\": false\n    },\n    \"message\": \"Specimen details updated successfully\",\n    \"status\": 200,\n    \"time\": \"2026-05-23T16:23:39.550682\",\n    \"uri\": \"/api/specimens/update/a569f112-5c8b-44fe-b9a5-f41070dd394d\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Delete by ID",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/specimens/delete/ff923d4d-7803-4cea-bd7b-eba768207b1b",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "specimens",
+            "delete",
+            "ff923d4d-7803-4cea-bd7b-eba768207b1b"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Delete by ID",
+          "originalRequest": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/api/specimens/delete/ff923d4d-7803-4cea-bd7b-eba768207b1b",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "api",
+                "specimens",
+                "delete",
+                "ff923d4d-7803-4cea-bd7b-eba768207b1b"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 23 May 2026 22:27:26 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"data\": {\n        \"id\": \"ff923d4d-7803-4cea-bd7b-eba768207b1b\",\n        \"name\": \"Lynel\",\n        \"region\": \"Praderas de Faron\",\n        \"dangerLevel\": 100,\n        \"isFriendly\": false\n    },\n    \"message\": \"Specimen purged from Sheikah Slate\",\n    \"status\": 200,\n    \"time\": \"2026-05-23T16:27:26.8785594\",\n    \"uri\": \"/api/specimens/delete/ff923d4d-7803-4cea-bd7b-eba768207b1b\"\n}"
+        }
+      ]
+    }
+  ]
+}
